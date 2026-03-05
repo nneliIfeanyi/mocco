@@ -48,10 +48,9 @@ if (isset($_SESSION['student'])) {
         $conn->bind(":name", $name);
         $conn->bind(":open", 'open');
         $result_set = $conn->fetchSingle();
-        $user_card_usage = $result_set->card_usage;
-        $user_card_availability = $result_set->card_availability;
-        $current_card = $result_set->pin_code;
-
+        $user_card_usage = $result_set ? $result_set->card_usage : 0;
+        $user_card_availability = $result_set ? $result_set->card_availability : '';
+        $current_card = $result_set ? $result_set->pin_code : '';
 
 
         ?>

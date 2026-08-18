@@ -149,6 +149,13 @@
                     <p class="text-muted">Principal</p>
                     <p class="principal-message mt-3">Welcome to Model Commercial College. Our mission is to foster academic excellence and character development. We believe every student has the potential to succeed and are committed to providing the guidance and resources needed.</p>
                 </div>
+
+                <div class="col-md-6 text-center">
+                    <div class="mt-4 card p-3 shadow-sm">
+                        <h4 class="fw-light">Mohammed Ramatu Aliyu</h4>
+                        <p class="text-muted">H.O.D. Mathematics <span style="font-size: x-small;">Junior sec. school</span></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

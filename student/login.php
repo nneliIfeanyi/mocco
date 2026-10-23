@@ -199,14 +199,14 @@ if (empty($student_login_bg)) {
         })
     </script>
 
-    <script>
+    <!-- <script>
         $(document).ready(function() {
             $('#suspensionModal').modal('show');
         });
-    </script>
+    </script> -->
 
     <!-- Suspension Modal Start -->
-    <div class="modal fade show" id="suspensionModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="suspensionModalLabel" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1050; background-color: rgba(0,0,0,0.9); display: block !important;">
+    <!-- <div class="modal fade show" id="suspensionModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="suspensionModalLabel" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1050; background-color: rgba(0,0,0,0.9); display: block !important;">
         <div class="modal-dialog modal-dialog-centered" role="document" style="width: 100%; height: 100%; margin: 0;">
             <div class="modal-content" style="width: 100%; height: 100%; border: none; background: transparent;">
                 <div class="modal-body d-flex align-items-center justify-content-center" style="width: 100%; height: 100%;">
@@ -214,7 +214,7 @@ if (empty($student_login_bg)) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Suspension Modal End -->
 
 </body>
